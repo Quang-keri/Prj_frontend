@@ -23,3 +23,50 @@ body {
   -ms-scroll-chaining: none;
       overscroll-behavior: contain;
 }
+
+#menu-neft {
+  width: 120px;
+  height: 40px;
+}
+
+.header-container {
+  margin: 20px 0 20px;
+}
+
+.search_form {
+  margin-top: 10px;
+}
+
+.search {
+  outline: none;
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 70%;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-search {
+  width: 50px;
+  height: 40px;
+  border: none;
+}
+
+.top-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.nav-group {
+  height: 57px;
+  background-color: blue;
+}

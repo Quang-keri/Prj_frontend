@@ -73,7 +73,7 @@
   <body>
     <header>
       <div class="header-container">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-md-3">
               <!-- Header Logo -->
@@ -88,16 +88,36 @@
               <!-- End Header Logo -->
             </div>
             <div class="col-md-6">
-              <form action="#">
-                <input
-                  type="text"
-                  action="#"
-                  value=""
-                  placeholder="Tìm kiếm sản phẩm"
-                />
-                <button type="submit" class="btn-search">
-                  <i class="fa fa-search"></i>
-                </button>
+              <form action="#" id="search_form">
+                <div class="input-group">
+                  <select name="" id="menu-neft">
+                    <option value="">Danh mục</option>
+                    <option value="90">NERF SUPER SOAKER</option>
+                    <option value="89">NERF N-Strike Modulus</option>
+                    <option value="88">Nerf Zombie Strike</option>
+                    <option value="87">NERF ACCUSTRIKE SERIES</option>
+                    <option value="85">Nerf phụ kiện</option>
+                    <option value="86">Nerf Doomlands</option>
+                    <option value="84">Nerf N-Strike Elite</option>
+                    <option value="91">NERF N-STRIKE MEGA</option>
+                    <option value="92">NERF RIVAL</option>
+                    <option value="93">Icon series</option>
+                    <option value="95">Zuru X-Shot</option>
+                    <option value="96">Nerf Fortnite</option>
+                  </select>
+
+                  <input
+                    type="text"
+                    action="#"
+                    value=""
+                    name="search"
+                    class="search"
+                    placeholder="Tìm kiếm sản phẩm"
+                  />
+                  <button type="submit" class="btn-search">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
               </form>
             </div>
             <div class="col-md-3 top-cart">
@@ -106,6 +126,7 @@
           </div>
         </div>
       </div>
+      <nav class="nav-group"></nav>
     </header>
   </body>
 </html>
